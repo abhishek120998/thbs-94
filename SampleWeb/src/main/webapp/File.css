@@ -1,0 +1,44 @@
+@charset "ISO-8859-1";
+
+body {
+	background-color: #C0C0C0;
+}
+p {
+	color:white;
+	background-color:rgb(0, 0, 0);
+	text-align: center;
+	font-size: 25px;
+}
+input[type=text],input[type=password] {
+	border-color: blue;
+	border-radius: 8px;
+	height:20px;
+	border-style:solid;
+}
+table {
+	font-size:20px;
+}
+h2 {
+	text-align:center;
+}
+#para1 {
+	color:blue;
+	font-family: monospace;
+	text-shadow: black;
+	text-size:20px;
+	text-align: centre;
+	
+}
+input[text=text]:hover.input[type=password]:hover {
+	backgroung-color: aqua;
+}
+input[text=submit] {
+	border-style: double;
+	width: 10px;
+	border-radius: 10px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+input[type=submit]:hover {
+	background-color: purple;
+}

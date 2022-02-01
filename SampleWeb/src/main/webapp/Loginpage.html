@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login Page</title>
+<link rel="stylesheet" href="File.css">
+<script type="text/javascript">
+
+function diaplay(){
+	var user = document.getElementById("username").value;
+	var pass = document.getElementById("password").value;
+	alert("User Name: "+user+"\nPassword:"+pass);
+}
+
+</script>
+</head>
+<body>
+<h2>Enter your credentials:</h2>
+
+<p id="para1">
+Login using your user name and password.<br>
+The data sent you is the backend with the DataBase.<br>
+If its correct, then only you are allowed to enter. Else you are not.
+</p>
+
+<p id="para2">
+This is another paragraph.<br>
+We are handaling the Web-UI for THBS-94 Batch.<br>
+</p> 
+<br>
+<span id="span1">
+<h2>Enter your credentials:</h2>
+<center>
+<form action="Products.html">
+<table Border=2>
+
+<tr>
+	<td> User Name </td>
+	<td><input type="text" id="username"></td>
+</tr>
+<tr>
+	<td> Password </td>
+	<td><input type="password" id="password"> </td>
+</tr>
+</table>
+<br>
+<input type="Submit">
+</form>
+</center>
+</span>
+</body>
+</html>

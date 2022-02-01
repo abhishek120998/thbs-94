@@ -1,0 +1,31 @@
+@charset "ISO-8859-1";
+
+body {
+	background-color: #C0C0C0;
+}
+
+input[type=text],input[type=password] {
+	border-color: blue;
+	border-radius: 8px;
+	height:20px;
+	border-style:solid;
+}
+table {
+	font-size:20px;
+}
+h2 {
+	text-align:center;
+}
+input[text=text]:hover.input[type=password]:hover {
+	backgroung-color: rgb(228, 27, 27);
+}
+input[text=SignIn] {
+	border-style: double;
+	width: 10px;
+	border-radius: 10px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+input[type=submit]:hover {
+	background-color: purple;
+}
